@@ -6,6 +6,10 @@ public class LoginPage {
 	{
 		System.out.println("Test method");
 	}
+	public void  rekha()
+	{
+		System.out.println("Test method");
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
