@@ -9,5 +9,10 @@ public class TestClass {
 	{
 		System.out.println("@Test");
 	}
+	@Test
+	public void test2()
+	{
+		System.out.println("@Test2");
+	}
 
 }
