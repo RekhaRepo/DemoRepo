@@ -4,4 +4,65 @@
   <artifactId>DemoGitRepo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <description>It is MAven project</description>
+
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+  <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		 <maven.compiler.source>1.8</maven.compiler.source>
+         <maven.compiler.target>1.8</maven.compiler.target>
+         <!-- <maven.test.skip>true</maven.test.skip> --> 
+	</properties>
+<dependencies>
+	<dependency>  
+			<groupId>org.testng</groupId>  
+			<artifactId>testng</artifactId>  
+			<version>6.8</version>  
+			<scope>compile</scope>  
+	</dependency>  
+	 <dependency>  
+			<groupId>org.seleniumhq.selenium</groupId>  
+			<artifactId>selenium-java</artifactId>  
+			<version>3.141.59</version>  
+	</dependency>
+	
+	 <dependency>  
+			<groupId>org.apache.poi</groupId>  
+			<artifactId>poi</artifactId>  
+			<version>5.0.0</version>  
+	</dependency>
+	 <dependency>  
+			<groupId>org.apache.poi</groupId>  
+			<artifactId>poi-ooxml</artifactId>  
+			<version>5.0.0</version>  
+	</dependency> 
+	
+	<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-scratchpad</artifactId>
+			<version>5.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>ooxml-schemas</artifactId>
+			<version>1.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>openxml4j</artifactId>
+			<version>1.0-beta</version>
+		</dependency>
+		
+</dependencies>
 </project>

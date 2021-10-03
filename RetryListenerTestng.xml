@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNGRetryListenerSuite">
+    <listeners>
+        <listener class-name="com.QA.Retry.Listeners.TestNg.IAnnotationTransformerConcept"/>
+    </listeners>
+
+    <test name="RetryMultipleFailedTestCasesUsingAnnotationTransformerListenersatRuntime">
+        <classes>
+            <class name="com.QA.TestNG.IAnnotationTransformer.MyTests"/>
+        </classes>
+    </test>
+</suite>

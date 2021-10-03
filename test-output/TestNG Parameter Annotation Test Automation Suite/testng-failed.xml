@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Parameter Annotation Test Automation Suite]">
+  <test thread-count="5" name="Test Cases execution using Parameter TestNG Annotation(failed)">
+    <parameter name="firstName" value="Rekha"/>
+    <parameter name="lastName" value="Maddisetti"/>
+    <parameter name="password" value="12fdsa12"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="emailid" value="tester456@gmail.com"/>
+    <parameter name="url" value="https://signup.ebay.com/pa/crte?ru=https%3A%2F%2Fwww.ebay.com%2F"/>
+    <classes>
+      <class name="com.QA.TestNG.ParametersDemo.ParametersTest">
+        <methods>
+          <include name="EbayRegistrationTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.QA.TestNG.ParametersDemo.ParametersTest -->
+    </classes>
+  </test> <!-- Test Cases execution using Parameter TestNG Annotation(failed) -->
+</suite> <!-- Failed suite [TestNG Parameter Annotation Test Automation Suite] -->

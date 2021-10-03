@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Parameter Annotation Test Automation Suite">
+  <test name="Test Cases execution using Parameter TestNG Annotation">
+  
+  	 <parameter name ="browser" value ="chrome"/>
+      <parameter name="url" value="https://signup.ebay.com/pa/crte?ru=https%3A%2F%2Fwww.ebay.com%2F"/>
+  	  <parameter name="firstName" value="Rekha"/>
+  	  <parameter name="lastName" value="Maddisetti"/>
+      <parameter name="emailid" value="tester456@gmail.com"/>
+      <parameter name="password" value="12fdsa12"/>
+      <classes>
+      
+      <class name="com.QA.TestNG.ParametersDemo.ParametersTest"/>
+      
+      </classes>
+  </test> 
+</suite>
